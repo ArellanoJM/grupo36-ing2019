@@ -1,0 +1,165 @@
+@charset "utf-8";
+body {background-color: #c30c18}
+body,h1,h2,h3,h4,h5,h6 {font-family: Arial, "sans-serif"}
+h1{font-size:36px} h2{font-size:28px} h3{font-size:24px} h4{font-size:20px} h5{font-size:18px} h6{font-size:16px}
+
+
+.class_bienvenida {
+	background: #F5F5F5;
+	top: 20%;
+	margin: auto;
+	margin-top: 20px;
+	padding: 20px;
+	color: 696969;
+	font-style: italic;
+	}
+
+
+img {
+  width: 24px;
+  vertical-align: middle;
+  padding-right: 5px;
+
+}
+
+.div_body{
+	top: 30%;
+	margin: auto;
+	width: 50%;
+	max-width: 720px;
+	background-color: #FFFFFF;
+	padding: 30px
+}
+
+table {
+	  border-collapse: collapse;
+	  margin: 0;
+	  padding: 0;
+	  width: 100%;
+	  border: 0;
+}
+
+
+
+	table thead { display: none; }
+	
+		table th, table td {
+	  padding: .625em;
+	  text-align: center;
+	}
+
+	table th {
+	  font-size: .85em;
+	  letter-spacing: .1em;
+	  text-transform: uppercase;
+	}
+
+	table tr {
+		background: #f8f8f8;
+		border: 1px solid #ddd;
+		padding: .35em;
+		border-bottom: 1px solid #ddd;
+		display: block;
+		margin-bottom: .625em;
+	}
+
+	table td {
+		border-bottom: 1px solid #ddd;
+		display: block;
+		font-size: .8em;
+		text-align: right;
+	}
+
+	table td:before {
+		content: attr(data-label);
+		float: left;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	table td:last-child {
+    border-bottom: 0;
+
+  }
+	
+
+	
+
+
+input {
+	display: block;
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	border: 2px solid #ccc;
+}
+
+input[type="submit"] {
+	background: #c30c18;
+	font-size: 1rem;
+	color: white;
+	border: #c30c18;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+input[type="submit"]:hover { 
+opacity: 0.8;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 1em;
+  background-color: #FFFFFF
+}
+
+li a {
+  display: block;
+  color: #FFF;
+  padding: 15px;
+  text-decoration: none;
+  margin-top: 15px;
+  background-color: #c30c18;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+li a:hover {
+opacity: 0.8;
+  
+}	
+
+@media screen and (max-width: 768px) {
+	
+	/*body {background-color: #FFFFFF}*/
+
+	.class_bienvenida {
+		margin-top: 10px;
+	}
+	
+	.div_body{
+		width: 85%;
+		padding: 20px;
+		margin: auto;
+		margin-top: 0px;
+	}
+  
+  
+  input {
+	font-size: 0.4rem;
+	width:100%;
+	
+}
+
+ul {
+  font-size: 0.80rem;
+}
+	
+
+
+
+}
